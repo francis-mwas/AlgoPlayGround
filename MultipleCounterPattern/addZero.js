@@ -14,10 +14,13 @@ function addZero(arr) {
        
         if (sum === 0) {
             return [arr[left], arr[right]];
+
+        // if sum > 0  move right pointer one step behind
         } else if (sum > 0) {
-            right--; //move right pointer one step behind
+            right--;
         } else {
-            left++; //move left pointer one step ahead 
+            //move left pointer one step ahead 
+            left++; 
         }
     }
 }
