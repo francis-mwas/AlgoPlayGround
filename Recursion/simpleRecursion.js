@@ -4,7 +4,7 @@ function printNums(num) {
         return;
     }
     console.log("Number is: " + num);
-    num--
+    num-- 
     printNums(num);
 }
 
