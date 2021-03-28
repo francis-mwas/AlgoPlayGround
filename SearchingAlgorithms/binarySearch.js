@@ -1,8 +1,10 @@
 function binarySearch(arr, element) {
+  // define start and end index 
   let startIndex = 0;
   let endIndex = arr.length - 1;
 
   while (startIndex <= endIndex) {
+    // keep on updating the middleIndex, every time startIndex and endIndex changes
     let middleIndex = Math.floor(startIndex + endIndex / 2);
 
     if (arr[middleIndex] === element) {
@@ -22,4 +24,4 @@ function binarySearch(arr, element) {
   console.log("The element was not found in this array");
 }
 
-binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 6);
+binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 6);//2
