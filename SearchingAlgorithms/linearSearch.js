@@ -7,5 +7,4 @@ function linearSearch(arr, val) {
     return -1
 }
 
-
-console.log(binarySearch([1,2,3,4,5,8,10,17,60], 4));
+console.log(linearSearch([1,2,3,4,5,8,10,17,60], 4));
